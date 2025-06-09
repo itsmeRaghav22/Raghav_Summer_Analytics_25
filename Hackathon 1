@@ -1,2 +1,8 @@
-Steps adopted to generate an ML model in this hackathon.
-  
+#Steps adopted to generate an ML model in this hackathon.
+
+Objective
+Develop a logistic regression model to classify land cover into one of six categories(Water, Impervious surfaces (e.g., urban areas), Farm, Forest, Grass, Orchard)
+
+The classification is based on NDVI time-series data, which measures vegetation health and density by comparing near-infrared (NIR) and red light reflectance(RED).
+where, NDVI = (NIR - RED)/(NIR + RED)
+27 NDVI Time Points: NDVI values collected on different dates, labeled in the format YYYYMMDD_N (e.g., 20150720_N), representing vegetation dynamics over time.
